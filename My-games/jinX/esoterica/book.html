@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+		<script src="../js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			body{
+				margin: 0;
+				padding: 0;
+				background-color: #C7DDEF;
+				text-align: center;
+			}
+			.bg{
+				display: block;
+				background-color:#5CB85C;
+				height: 80px;
+				line-height: 80px;
+				color: white;
+			}
+			.classify{
+				display: block;
+				background-color:#EEA236;
+				height: 50px;
+				line-height: 50px;
+				color: white;
+			}
+			.mj{
+				display: block;
+				width: 100%;
+				height: 50px;
+				line-height: 40px;
+				font-size: 18px;
+				margin: 5px 0;
+			}
+			.test{text-align: left;font-size: 0.8em;}
+			.red{color:red;}
+			.blue{color: #337AB7;}
+			.green{color: #4CAE4C;}
+			.yellow{color:darkorange;}
+		</style>
+		<script type="text/javascript">
+			$(function(){
+   				 $(".test").hide();  // 默认隐藏状态
+   				 $(".mj").click(function() {
+     				   $(this).next('.test').toggle('slow');  // 改变显隐状态
+  				 })
+			})
+		</script>
+	</head>
+	<body>
+			<div class="col-md-2">
+				<h1 class="bg">空手</h1>
+				<h3 class="classify">阳</h3>
+					
+					<p class="mj btn btn-info">绵掌</p>
+					<div class="test">
+						<p>
+							武当派扎实的基本武功，柔中带刚<br />
+							装备要求：<span class="red">？？？</span><br />
+							技能效果:<br />
+							<span class="red">威力 12.5</span><br />
+							覆盖类型 点攻击<br />
+							覆盖范围 2<br />
+							施展范围 3<br />
+							<span class="blue">消耗内力 200</span><br />
+							<span class="green">技能CD 0/0</span><br />
+							<span class="green">适性：阳30%</span><br />
+							<span class="yellow">特效：缓速（1）持续3回合</span><br />
+							<span class="yellow">特效：防御强化（2）持续3回合</span><br />
+							被动增益：<br />
+							<span class="green">
+								(10级解锁)+搏击格斗 12<br />
+								(12级解锁)+技能【绝户虎爪手】 威力 15%<br />
+								(15级解锁)+技能【太极拳】 威力 15%<br />
+								(16级解锁)+臂力 12<br />
+								(18级解锁)+内功【太极神功】 增益 10%<br />
+								(20级解锁)+内功【纯阳无极功】 增益 10%<br />
+							</span>
+							获得方法：<br />
+							<span class="red">？？？</span>
+						</p>
+					</div>
+					
+					
+				<h3 class="classify">阴</h3>
+				
+					<p class="mj btn btn-info">玄冥神掌</p>
+					<div class="test">
+						<p>
+							连张三丰都怕的毒功<br />
+							装备要求：<span class="red">？？？</span><br />
+							技能效果:<br />
+							<span class="red">威力 13.6</span><br />
+							覆盖类型 点攻击<br />
+							覆盖范围 2<br />
+							施展范围 3<br />
+							<span class="blue">消耗内力 217</span><br />
+							<span class="green">技能CD 0/0</span><br />
+							<span class="green">适性：阴110%</span><br />
+							<span class="yellow">特效：内伤（3）持续3回合</span><br />
+							<span class="yellow">特效：中毒（6）持续3回合&nbsp;<span class="red">必定命中</span></span><br />
+							被动增益：<br />
+							<span class="green">
+								(10级解锁)+搏击格斗 12<br />
+								(20级解锁)+搏击格斗 8<br />
+							</span>
+							获得方法：<br />
+							<span class="red">？？？</span>
+						</p>
+					</div>
+					
+					<p class="mj btn btn-info">九阴白骨爪</p>
+					<div class="test">
+						<p>
+							九阴真经中的武功<br />
+							装备要求：<span class="red">？？？</span><br />
+							技能效果:<br />
+							<span class="red">威力 13.55</span><br />
+							覆盖类型 点攻击<br />
+							覆盖范围 2<br />
+							施展范围 3<br />
+							<span class="blue">消耗内力 216</span><br />
+							<span class="green">技能CD 0/0</span><br />
+							<span class="green">适性：阴110%</span><br />
+							<span class="yellow">特效：缓速（1）持续3回合</span><br />						
+							被动增益：<br />
+							<span class="green">
+								(10级解锁)+搏击格斗 12<br />
+								(18级解锁)+内功【九阴神爪】增益 12%<br />
+								(20级解锁)+绝技【九阴神功.九阴神爪】威力 50%<br />
+							</span>
+							获得方法：<br />
+							<span class="red">？？？</span>
+						</p>
+					</div>
+					
+				<h3 class="classify">阴阳调和</h3>
+					<p class="mj btn btn-info">野球拳</p>
+					<div class="test">
+						<p>
+							江湖混混与人胡搅蛮缠的拳法<br />
+							装备要求：<span class="red">？？？？？？</span><br />
+							技能效果:<br />
+							<span class="red">威力 28</span><br />
+							覆盖类型 点攻击<br />
+							覆盖范围 5<br />
+							施展范围 5<br />
+							<span class="blue">消耗内力 448</span><br />
+							<span class="green">技能CD 0/0</span><br />
+							<span class="green">适性：阴阳调和</span><br />
+							<span class="yellow"> </span><br />
+							被动增益：<br />
+							<span class="green">
+								(5级解锁)+搏击格斗 18<br />
+								(10级解锁)+拳掌系技能加成 3%<br />
+								(15级解锁)奥义【草头百姓的逆袭.这下子逆天了】威力+15%，发动概率+5%<br />
+								(20级解锁)天赋 神拳无敌（被动生效）<br />
+								对拳法的掌握达到入微的境界，提升拳法类伤害，并提升铁拳无双发动概率<br />
+							</span>
+							获得方法：<br />
+							<span class="red">1.主角、女主、韦小宝自带。<br>2.擂鼓山剧情获得<br>3.???</span>
+						</p>
+					</div>
+					
+					<p class="mj btn btn-info">墨拳</p>
+					<div class="test">
+						<p>
+							传自战国墨家的古老拳法<br />
+							装备要求：<span class="red">？？？</span><br />
+							技能效果:<br />
+							<span class="red">威力 25</span><br />
+							覆盖类型 点攻击<br />
+							覆盖范围 2<br />
+							施展范围 3<br />
+							<span class="blue">消耗内力 400</span><br />
+							<span class="green">技能CD 0/0</span><br />
+							<span class="green">适性：阴阳调和</span><br />
+							<span class="yellow">特效：重伤（3）持续3回合</span><br />
+							被动增益：<br />
+							<span class="green">
+								（3级解锁）天赋 哀歌（被动生效）<br />
+								哀声四起，降低周围敌人的攻击力。<br />
+								（5级解锁）天赋 斗魂（被动生效）<br />
+								斗志昂扬，怒气增长效率翻倍。<br />
+								（3级解锁）天赋 追魂（被动生效）<br />
+								不将敌人打倒决不罢休，无道德可言。攻击加成加深效果。<br />
+							</span>
+							获得方法：<br />
+							<span class="red">？？？</span>
+						</p>
+					</div>
+					
+			</div>
+			<div class="col-md-2">
+				<h1 class="bg">剑法</h1>
+				<h3 class="classify">阳</h3>
+				<h3 class="classify">阴</h3>
+				
+				<p class="mj btn btn-info">绕指柔剑</p>
+					<div class="test">
+						<p>
+							武当派飘忽不定的奇幻剑术<br />
+							装备要求：<span class="red">使剑技巧>40</span><br />
+							技能效果:<br />
+							<span class="red">威力 12.5</span><br />
+							覆盖类型 直线攻击<br />
+							覆盖范围 3<br />
+							施展范围 3<br />
+							<span class="blue">消耗内力 180</span><br />
+							<span class="green">技能CD 0/0</span><br />
+							<span class="green">适性：阴40%</span><br />
+							<span class="yellow"> </span><br />
+							被动增益：<br />
+							<span class="green">
+								(10级解锁)+使剑技巧 6<br />
+								(14级解锁)+技能【柔云剑法】威力 20%<br />
+								(16级解锁)+技能【神门十三剑】威力 20%<br />
+								(18级解锁)+技能【太极剑】威力 20%<br />
+								(20级解锁)+使剑技巧 6<br />
+							</span>
+							获得方法：<br />
+							<span class="red">？？？</span>
+						</p>
+					</div>
+					
+				<h3 class="classify">阴阳调和</h3>
+					<p class="mj btn btn-info">独孤九剑</p>
+					<div class="test">
+						<p>
+							独孤求败纵横天下的无敌剑法<br />
+							装备要求：<span class="red">使剑技巧>85 悟性>90 身法>80 定力>65</span><br />
+							技能效果:<br />
+							<span class="red">威力 19.3</span><br />
+							覆盖类型 直线攻击<br />
+							覆盖范围 3<br />
+							施展范围 3<br />
+							<span class="blue">消耗内力 277</span><br />
+							<span class="green">技能CD 0/0</span><br />
+							<span class="green">适性：阴阳调和</span><br />
+							<span class="yellow">特效：集气（2）持续3回合</span><br />
+							被动增益：<br />
+							<span class="green">
+								(10级解锁)+使剑技巧 14<br />
+								(18级解锁)+剑系技能加成4%<br />
+								(20级解锁)天赋 独孤求败（被动生效）<br />
+								站在武林巅峰，几乎洞悉一切敌人的弱点<br />
+								(20级解锁)+使剑技巧 15<br />
+							</span>
+							获得方法：<br />
+							<span class="red">？？？</span>
+						</p>
+				</div>
+					
+			</div>
+			<div class="col-md-2">
+				<h1 class="bg">刀法</h1>
+				<h3 class="classify">阳</h3>
+				<h3 class="classify">阴</h3>
+					
+					<p class="mj btn btn-info">反两仪刀法</p>
+					<div class="test">
+						<p>
+							反两仪刀法<br />
+							装备要求：<span class="red">？？？</span><br />
+							技能效果:<br />
+							<span class="red">威力 13.5</span><br />
+							覆盖类型 身前攻击<br />
+							覆盖范围 1<br />
+							施展范围 1<br />
+							<span class="blue">消耗内力 216</span><br />
+							<span class="green">技能CD 0/0</span><br />
+							<span class="green">适性：阴80%</span><br />
+							<span class="yellow">特效：缓速（3）持续3回合</span><br />
+							被动增益：<br />
+							<span class="green">
+								(10级解锁)+耍刀技巧 10<br />
+								(20级解锁)+暴击伤害 10%<br />
+							</span>
+							获得方法：<br />
+							<span class="red">？？？</span>
+						</p>
+					</div>
+					
+				<h3 class="classify">阴阳调和</h3>
+					
+			</div>
+			<div class="col-md-2">
+				<h1 class="bg">奇门</h1>
+				<h3 class="classify">阳</h3>
+					
+					<p class="mj btn btn-info">大剪刀</p>
+					<div class="test">
+						<p>
+							岳老三的野蛮武功<br />
+							装备要求：<span class="red">???</span><br />
+							技能效果:<br />
+							<span class="red">威力 12</span><br />
+							覆盖类型 十字攻击<br />
+							覆盖范围 2<br />
+							施展范围 0<br />
+							<span class="blue">消耗内力 192</span><br />
+							<span class="green">技能CD 0/0</span><br />
+							<span class="green">适性：阳30%</span><br />
+							<span class="yellow">特效：定身（1）持续3回合</span><br />
+							被动增益：<br />
+							<span class="green">
+							(10级解锁)+奇门兵器 7<br />
+							(20级解锁)+奇门兵器 12<br />
+							(20级解锁)+臂力 12<br />
+							</span>
+							获得方法：<br />
+							<span class="red">？？？</span>
+						</p>
+					</div>
+					
+				<h3 class="classify">阴</h3>
+					
+					<p class="mj btn btn-info">黑血神针</p>
+					<div class="test">
+						<p>
+							阴险狠毒的暗器<br />
+							装备要求：<span class="red">???</span><br />
+							技能效果:<br />
+							<span class="red">威力 15</span><br />
+							覆盖类型 十字攻击<br />
+							覆盖范围 2<br />
+							施展范围 0<br />
+							<span class="blue">消耗内力 240</span><br />
+							<span class="green">技能CD 0/0</span><br />
+							<span class="green">适性：阴70%</span><br />
+							<span class="yellow">特效：中毒（3）持续3回合</span><br />
+							被动增益：<br />
+							<span class="green">
+							(10级解锁)+奇门兵器 9<br />
+							(20级解锁)+奇门系技能加成 3%<br />
+							</span>
+							获得方法：<br />
+							<span class="red">？？？</span>
+						</p>
+					</div>
+					
+				<h3 class="classify">阴阳调和</h3>
+					
+			</div>
+			<div class="col-md-2">
+				<h1 class="bg">特殊技能/天赋书</h1>
+				<h3 class="classify">特殊技能</h3>
+				
+					<p class="mj btn btn-info">打鸡血</p>
+					<div class="test">
+						<p>
+							通过自我激励，增加自身怒气值和攻击力<br />
+							装备要求：<span class="red">？？？</span><br />
+							覆盖类型 点攻击<br />
+							覆盖范围 0<br />
+							施展范围 0<br />
+							<span class="blue">消耗内力 100</span><br />
+							<span class="green">技能CD 0/0</span><br />
+							<span class="yellow">特效：攻击强化（3）持续5回合&nbsp;<span class="red">必定命中</span></span><br />
+							获得方法：<br />
+							<span class="red">？？？</span>
+						</p>
+					</div>
+					
+				<h3 class="classify">天赋书</h3>
+				
+					<p class="mj btn btn-info">乾坤大挪移</p>
+					<div class="test">
+						<p>
+							明教镇派之宝，防御圣品乾坤大挪移。<br />
+							<span class="red">
+								装备要求：<br />
+								福源>65 定力>65<br />
+							</span>
+							<span class="yellow">
+								物品效果：<br />
+								天赋 乾坤大挪移（被动生效）<br />
+								防御圣品，一定概率伤害减半。
+							</span>
+						</p>
+					</div>
+				
+			</div>
+			<div class="col-md-2">
+				<h1 class="bg">功法</h1>
+				<h3 class="classify">阳</h3>
+				<h3 class="classify">阴</h3>
+					
+					<p class="mj btn btn-info">星宿心法</p>
+					<div class="test">
+						<p>
+							星宿派的入门内功<br />
+							装备要求：<span class="red">？？？</span><br />
+							技能效果:<br />
+							<span class="red">+攻击 40%</span><br />
+							<span class="green">+防御 80%</span><br />
+							<span class="yellow">+爆发 40%</span><br />
+							<span class="blue">阴适性 100</span><br />
+							<span class="yellow">阳适性 -20</span><br />
+							被动增益：<br />
+							<span class="green">
+								(10级解锁)+根骨10<br />								
+								(15级解锁)+技能【抽髓掌】 威力50%<br />
+								(15级解锁)+技能【三阴蜈蚣抓】 威力50%<br />
+								(20级解锁)+技能【抽髓掌】 威力70%<br />
+								(20级解锁)+技能【三阴蜈蚣抓】 威力70%<br />
+							</span>
+							获得方法：<br />
+							<span class="red">？？？</span>
+						</p>
+					</div>
+					
+				<h3 class="classify">阴阳调和</h3>
+				
+					<p class="mj btn btn-info">混元功</p>
+					<div class="test">
+						<p>
+							华山派由内而外的内功，需配合混元掌使用。<br />
+							装备要求：<span class="red">？？？</span><br />
+							技能效果:<br />
+							<span class="red">+攻击 100%</span><br />
+							<span class="green">+防御 100%</span><br />
+							<span class="yellow">+爆发 10%</span><br />
+							<span class="blue">阴适性 80</span><br />
+							<span class="yellow">阳适性 80</span><br />
+							被动增益：<br />
+							<span class="green">
+								(10级解锁)天赋 拳掌封印（装备生效）<br />
+								攻击一定概率造成拳掌封印效果。<br>
+								(10级解锁)+根骨 12<br />
+								(12级解锁)+技能【混元掌】 威力15%<br />
+								(14级解锁)+技能【混元掌】 威力15%<br />
+								(15级解锁)+技能【混元掌】 威力15%<br />
+								(16级解锁)+技能【混元掌奥义.劈石破玉拳】 威力15%<br />
+								(18级解锁)+技能【混元掌奥义.劈石破玉拳】 威力15%<br />
+								(20级解锁)+技能【混元掌奥义.劈石破玉拳】 威力15%<br />
+							</span>
+							获得方法：<br />
+							<span class="red">？？？</span>
+						</p>
+					</div>
+					
+					<p class="mj btn btn-info">易筋经</p>
+					<div class="test">
+						<p>
+							少林至高无上的内功宝典<br />
+							装备要求：<span class="red">？？？</span><br />
+							技能效果:<br />
+							<span class="red">+攻击 140%</span><br />
+							<span class="green">+防御 160%</span><br />
+							<span class="yellow">+爆发 20%</span><br />
+							<span class="blue">阴适性 180</span><br />
+							<span class="yellow">阳适性 180</span><br />
+							被动增益：<br />
+							<span class="green">
+								(10级解锁)天赋 普照（装备生效）<br />
+								由自身强大的佛法向自己及身边队友进行治疗。<br>
+								(10级解锁)天赋 清心（装备生效）<br />
+								清心寡欲，每回合有50%概率解除不良状态<br>
+								(10级解锁)+根骨 12<br />
+								(12级解锁)+防御力40 减少受到暴击概率5%<br />
+								(16级解锁)+抵抗不良状态几率20%<br />
+								(20级解锁)+抵抗不良状态几率20%<br />
+							</span>
+							获得方法：<br />
+							<span class="red">？？？</span>
+						</p>
+					</div>
+					
+			</div>
+	</body>
+</html>
